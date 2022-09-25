@@ -1,0 +1,119 @@
+.about {
+    position: relative;
+    background-color: #eee;
+    color: rgb(60, 104, 199);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+
+    .container {
+
+        .section-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        .side-left {
+            width: 58%;
+            box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+            border: 1px solid rgb(188, 188, 188);
+            height: 650px;
+            padding: 20px;
+
+            p {
+                color: #333;
+                font-size: 12px;
+                font-weight: normal;
+            }
+            h4 {
+                color: #000;
+                font-size: 15px;
+                font-weight: bold;
+            }
+        }
+        .side-right {
+            width:40%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.625);
+            border: 1px solid rgb(188, 188, 188);
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            padding: 20px;
+            height: 650px;
+
+            
+
+            .box-1 {
+                padding: 20px;
+                background-color: white;
+                box-shadow: 0 2px 4px rgb(0 0 0 / 7%);
+                border-radius: 6px;
+                position: relative;
+                text-align: center;
+
+                img {
+                    position: absolute;
+                    right: 155px;
+                    margin-bottom: 0.5rem;
+                    top: 20px;
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    border: 10px solid var(--section-background);
+                }
+                h2 {
+                    margin-top: 100px;
+
+                }
+            }
+            .box-2 {
+                padding: 20px;
+                background-color: white;
+                box-shadow: 0 2px 4px rgb(0 0 0 / 7%);
+                border-radius: 6px;
+                position: relative;
+                margin-top: 5px;
+
+                .form {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    
+
+                    input {
+                        width: 100%;
+                    }
+
+                    
+                }
+            }
+            .box-3 {
+                padding: 20px;
+                background-color: white;
+                box-shadow: 0 2px 4px rgb(0 0 0 / 7%);
+                border-radius: 6px;
+                position: relative;
+                margin-top: 5px;
+
+                table {
+                    border: 1px solid #ddd;
+                    width: 100%;
+
+                    th {
+                        text-align: center;
+                    }
+                    td {
+                        text-align: center;
+                    }
+                }
+
+            }
+        }
+    }
+
+
+    }
+}
